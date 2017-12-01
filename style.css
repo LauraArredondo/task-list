@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial,;
+    font-size: 16px;
+}
+
+/*to center content*/
+
+.wrap {
+    margin: auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+/*Styles*/
+
+.principal {
+    background: #F44336;
+    border-top: 20px solid #D32F2F;
+    color: #fff;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.principal .form {
+    color: #212121;
+    text-align: center;
+}
+
+/*input to add work*/
+.principal .form input[type=text] {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+ /*.error we used with js*/
+.principal .form input[type=text].error {
+    border: 5px solid #D32F2F;
+    color: red;
+}
+
+.principal .form .boton {
+    background: none;
+    border: 1px solid #D32F2F;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.principal .form .boton:hover {
+    border: 1px solid #fff;
+}
+
+/* - Work - */
+.work .list {
+    list-style: none;
+}
+
+.work .list li {
+    border-bottom: 1px solid #B6B6B6;
+    color: #212121;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.work .list li:hover {
+    text-decoration: line-through;
+}
